@@ -18,4 +18,4 @@ def get_context(context):
 	context.album = album
 	context.album_json = json.dumps(album or None).replace("<", "\\u003c")
 	if not album:
-		frappe.local.response["http_status_code"] = 404
+		context.http_status_code = 404
