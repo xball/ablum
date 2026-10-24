@@ -1,0 +1,100 @@
+.ablum-toolbar,
+.ablum-people {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.ablum-grid,
+.ablum-albums {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+	gap: 8px;
+	margin-bottom: 16px;
+}
+
+.ablum-tile,
+.ablum-album {
+	border: 1px solid var(--border-color, #e5e7eb);
+	background: var(--card-bg, #fff);
+	padding: 0;
+	border-radius: 8px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.ablum-tile img,
+.ablum-album img,
+.ablum-cover-empty {
+	display: block;
+	width: 100%;
+	height: 140px;
+	object-fit: cover;
+	background: #f3f4f6;
+}
+
+.ablum-album strong,
+.ablum-album span {
+	display: block;
+	padding: 0 8px;
+}
+
+.ablum-album span {
+	padding-bottom: 8px;
+	color: var(--text-muted, #6b7280);
+	font-size: 12px;
+}
+
+.ablum-day {
+	margin: 12px 0 8px;
+}
+
+.ablum-details {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.ablum-detail {
+	display: flex;
+	gap: 12px;
+	width: 100%;
+	text-align: left;
+	border: 1px solid var(--border-color, #e5e7eb);
+	background: var(--card-bg, #fff);
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.ablum-detail img {
+	width: 72px;
+	height: 72px;
+	object-fit: cover;
+	border-radius: 6px;
+	background: #f3f4f6;
+}
+
+.ablum-detail-text {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.ablum-preview {
+	display: block;
+	max-width: 100%;
+	max-height: 360px;
+	margin-bottom: 8px;
+}
+
+.ablum-map,
+.ablum-public-map {
+	height: 480px;
+	border-radius: 8px;
+	border: 1px solid #e5e7eb;
+}
+
+.ablum-empty {
+	margin-top: 16px;
+}

@@ -1,0 +1,76 @@
+{
+ "app": "ablum",
+ "charts": [],
+ "content": "[{\"id\":\"ablib00001\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library\",\"col\":3}},{\"id\":\"abalb00001\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Albums\",\"col\":3}},{\"id\":\"abmap00001\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Map\",\"col\":3}}]",
+ "creation": "2026-10-24 20:15:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "image",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Album",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Library",
+   "link_count": 0,
+   "link_to": "album-library",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Albums",
+   "link_count": 0,
+   "link_to": "album-albums",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Map",
+   "link_count": 0,
+   "link_to": "album-map",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-24 20:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "Album",
+ "name": "Album",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 50.0,
+ "shortcuts": [
+  {
+   "label": "Library",
+   "link_to": "album-library",
+   "type": "Page"
+  },
+  {
+   "label": "Albums",
+   "link_to": "album-albums",
+   "type": "Page"
+  },
+  {
+   "label": "Map",
+   "link_to": "album-map",
+   "type": "Page"
+  }
+ ],
+ "title": "Album",
+ "type": "Workspace"
+}

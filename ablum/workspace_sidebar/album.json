@@ -1,0 +1,53 @@
+{
+ "app": "ablum",
+ "creation": "2026-10-24 20:15:00.000000",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "image",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "image",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Library",
+   "link_to": "album-library",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "folder",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Albums",
+   "link_to": "album-albums",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "map",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Map",
+   "link_to": "album-map",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-10-24 20:15:00.000000",
+ "modified_by": "Administrator",
+ "module": "Album",
+ "name": "Album",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Album"
+}

@@ -1,0 +1,59 @@
+{
+ "app": "ablum",
+ "doctype": "Sidebar",
+ "header_icon": "image",
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "doctype": "Sidebar Item",
+   "icon": "image",
+   "idx": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Library",
+   "link_to": "album-library",
+   "link_type": "Page",
+   "parentfield": "items",
+   "parenttype": "Sidebar",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "doctype": "Sidebar Item",
+   "icon": "folder",
+   "idx": 2,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Albums",
+   "link_to": "album-albums",
+   "link_type": "Page",
+   "parentfield": "items",
+   "parenttype": "Sidebar",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "doctype": "Sidebar Item",
+   "icon": "map",
+   "idx": 3,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Map",
+   "link_to": "album-map",
+   "link_type": "Page",
+   "parentfield": "items",
+   "parenttype": "Sidebar",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "Album",
+ "name": "Album",
+ "standard": 1,
+ "title": "Album"
+}
